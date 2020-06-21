@@ -13,7 +13,7 @@ namespace HerokuApp.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Verao", "Outono", "Inverno", "Primevera"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -35,5 +35,6 @@ namespace HerokuApp.Controllers
             })
             .ToArray();
         }
+
     }
 }
