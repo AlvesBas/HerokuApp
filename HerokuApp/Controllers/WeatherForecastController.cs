@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace HerokuApp.Controllers
 {
     [ApiController]
-    [Route("campeonato/[controller]")]
+    [Route("api/campeonato/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
